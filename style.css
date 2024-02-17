@@ -187,6 +187,74 @@ h2 {
     flex-direction: row;
     gap: 20px;
 }
+/* .rowBox6{
+    padding: 10px 20px;
+  }
+  .subContentOfAbout{
+    padding: 25px;
+  }
+  .rowBox6 .columnBox6 h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  .rowBox6 .columnBox6 h2{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+    
+  }
+  .rowBox6 {
+    padding: 10px 20px;
+  }
+  
+  .subContentOfAbout {
+    padding: 25px;
+  }
+  
+  .rowBox6 .columnBox6 h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .rowBox6 .columnBox6 h2 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .rowBox6 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .rowBox6 .columnBox6 h2,
+  .rowBox6 .columnBox6 p,
+  .rowBox6 .columnBox6 ul {
+    padding-left: 20px;
+  }
+  
+  .rowBox6 .columnBox6 p {
+    line-height: 20px;
+  }
+  
+  .rowBox6 .columnBox6 ul {
+    margin-left: 18px;
+    line-height: 30px;
+  } */
 
 .portfolio-container {
     display: grid;
@@ -357,6 +425,12 @@ input[type="submit"]:hover {
         width: 100px;
         height: 100px;
     }
+    /* .rowBox6 .columnBox6 h1 {
+        font-size: 22px;
+      }
+      .rowBox6 .columnBox6 h2 {
+        font-size: 16px;
+      } */
 }
 
 @media (max-width:768px) {
@@ -367,7 +441,20 @@ input[type="submit"]:hover {
     .contact-container {
         flex-direction: column;
     }
-
+    /* .rowBox6 .columnBox6 h1 {
+        font-size: 20px;
+      }
+      .rowBox6 .columnBox6 h2 {
+        font-size: 14px;
+      }
+      .rowBox6 .columnBox6 .summary,
+  .rowBox6 .columnBox6 .personal-info {
+    display: block;
+  }
+  .rowBox6 .columnBox6 .summary,
+  .rowBox6 .columnBox6 .personal-info {
+    display: inline;
+  } */
     .location {
         width: 100%;
     }
@@ -422,8 +509,17 @@ input[type="submit"]:hover {
     .sidebar{
         height: 100vh;
     }
-    
-    
-
-
+    /* .rowBox6 .columnBox6 h1 {
+        font-size: 18px;
+      }
+      .rowBox6 .columnBox6 h2 {
+        font-size: 12px;
+      }
+      .rowBox6 {
+        flex-direction: column;
+        align-items: center;
+      }
+      .rowBox6 .columnBox6 {
+        margin-bottom: 20px;
+      } */
 }
